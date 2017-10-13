@@ -22,6 +22,6 @@ def main():
     Speaker(30)
     time.sleep(60*30)
     driver.close()
-    print('Ok')
+    print('Ok-')
 if __name__ == '__main__':
     main()
