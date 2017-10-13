@@ -11,7 +11,7 @@ class Speaker():
     def run(self):
         while (True):
             print('{dt}'.format(dt=datetime.datetime.now()))
-            sleep(self.interval)
+            time.sleep(self.interval)
 
 def main():
     print('def main()')
